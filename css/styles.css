@@ -52,6 +52,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-dark);
 }
 
 .logo {
@@ -60,9 +61,16 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--main-dark);
+}
+.logo:visited {
+  color: var(--main-dark);
 }
 
 .logo-accent {
+  color: var(--primary-brand-color);
+}
+.logo-accent:visited {
   color: var(--primary-brand-color);
 }
 
